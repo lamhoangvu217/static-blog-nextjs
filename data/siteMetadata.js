@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: 'Lam Vu Hoang',
   description: 'Các bài post mới nhất',
   language: 'en-us',
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://www.lamhoangvu.me/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
