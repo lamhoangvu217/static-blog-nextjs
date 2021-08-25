@@ -60,7 +60,7 @@ Bạn chọn tiếp vào Khi khởi động
 ![chrome3.png](https://i.postimg.cc/tJMRBsnF/chrome3.png)
 Chọn vào tùy chọn thứ 3 và thêm URL trang web mà bạn muốn bật mỗi khi bạn khởi động Chrome
 ![chrome4.png](https://i.postimg.cc/7Zsv7F7T/chrome4.png)
-Sau đó tắt Chrome đi bật lại và tận hưởng thành quả nhé.  \
+Sau đó tắt Chrome đi bật lại và tận hưởng thành quả nhé. 
 > Ngày trước khi chưa biết cách này mình thường hay quên vào Notion để check list công việc, nhưng giờ thì đỡ rồi 😪
 
 Bạn nào dùng Cốc cốc thì cũng làm tương tự với Chrome nhé. 
