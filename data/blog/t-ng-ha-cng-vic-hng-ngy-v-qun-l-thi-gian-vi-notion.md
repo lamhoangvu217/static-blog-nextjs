@@ -25,7 +25,8 @@ Vậy mình đã tự động hóa cách mình học và làm việc như thế 
 # Startup Program 
 ## 1. Tự động hóa Windows 
 Mình setup cho máy của mình mỗi lần khởi động nó sẽ tự động bật cho mình Chrome và VSCode (phần mềm mình dùng để lập trình) \
-Đây là 2 phần mềm mà hầu như lúc nào mở máy lên mình cũng dùng đến, nên thay vì phải mở máy lên rồi bật từng cái (hoặc để ở chỗ nào đó dễ thấy ví dụ như taskbar) thì mình set cho nó tự bật luôn. Đây là cách giúp mình tiết kiệm được rất rất nhiều thời gian. Vậy cách thực hiện như nào. 
+Đây là 2 phần mềm mà hầu như lúc nào mở máy lên mình cũng dùng đến, nên thay vì phải mở máy lên rồi bật từng cái (hoặc để ở chỗ nào đó dễ thấy ví dụ như taskbar) thì mình set cho nó tự bật luôn. \
+Đây là cách giúp mình tiết kiệm được rất rất nhiều thời gian. Vậy cách thực hiện như nào. 
 
 ### Bước 1. Mở thư mục Startup
 Đầu tiên các bạn ấn tổ hợp phím `Window + R` để mở hộp thoại Run (hoặc vào thanh tìm kiếm gõ Run là ra) \
@@ -60,7 +61,8 @@ Bạn chọn tiếp vào Khi khởi động
 Chọn vào tùy chọn thứ 3 và thêm URL trang web mà bạn muốn bật mỗi khi bạn khởi động Chrome
 ![chrome4.png](https://i.postimg.cc/7Zsv7F7T/chrome4.png)
 Sau đó tắt Chrome đi bật lại và tận hưởng thành quả nhé.  \
-Bạn nào dùng Cốc cốc thì cũng làm tương tự với Chrome nhé. \
+> Ngày trước khi chưa biết cách này mình thường hay quên vào Notion để check list công việc, nhưng giờ thì đỡ rồi 😪
+Bạn nào dùng Cốc cốc thì cũng làm tương tự với Chrome nhé. 
 
 # Kết luận
 Cách này tuy đơn giản nhưng nó giúp mình tiết kiệm được rất nhiều thời gian cho công việc hàng ngày, hy vọng nó cũng sẽ giúp ích cho các bạn 😘. \
