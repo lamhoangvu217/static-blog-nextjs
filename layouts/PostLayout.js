@@ -90,7 +90,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 url={`https://www.lamhoangvu.me/blog/${slug}`}
                 quote={'Share to facebook'}
                 hashtag={'#nextshare'}
-              > 
+              >
                 <FacebookIcon size={48} round />
               </FacebookShareButton>
             </div>
@@ -133,7 +133,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
               </div>
-              
+
               <div className="pt-4 xl:pt-8">
                 <Link
                   href="/blog"
