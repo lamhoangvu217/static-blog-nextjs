@@ -6,6 +6,7 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
+import { FacebookShareButton, FacebookIcon } from 'next-share'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -85,6 +86,13 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
+              <FacebookShareButton
+                url={`https://www.lamhoangvu.me/blog/${slug}`}
+                quote={'Share to facebook'}
+                hashtag={'#nextshare'}
+              > 
+                <FacebookIcon size={48} round />
+              </FacebookShareButton>
             </div>
             <footer>
               <div className="text-sm font-medium leading-5 divide-gray-200 xl:divide-y dark:divide-gray-700 xl:col-start-1 xl:row-start-2">
@@ -125,6 +133,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   </div>
                 )}
               </div>
+              
               <div className="pt-4 xl:pt-8">
                 <Link
                   href="/blog"
