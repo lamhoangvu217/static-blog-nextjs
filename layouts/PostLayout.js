@@ -7,6 +7,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import { FacebookShareButton, FacebookIcon } from 'next-share'
+import { ClapButton } from '@lyket/react'
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
@@ -84,16 +85,36 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </ul>
               </dd>
             </dl>
-            <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
+            <div
+              className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2"
+              style={{ marginBottom: '20px' }}
+            >
               <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
-              <FacebookShareButton
-                url={`https://www.lamhoangvu.me/blog/${slug}`}
-                quote={'Share to facebook'}
-                hashtag={'#nextshare'}
+              <div
+                style={{
+                  borderTopWidth: '0px',
+                  borderBottomWidth: '0px',
+                  fontSize: '22px',
+                  display: 'flex',
+                  alignItems: 'center',
+                }}
               >
-                <FacebookIcon size={48} round />
-              </FacebookShareButton>
+                <ClapButton
+                  id="diy-fish-holder"
+                  hideCounterIfLessThan={1}
+                  namespace="post"
+                ></ClapButton>
+              </div>
+
+              {/* <FacebookShareButton
+                  url={`https://www.lamhoangvu.me/blog/${slug}`}
+                  quote={'Share to facebook'}
+                  hashtag={'#nextshare'}
+                >
+                  <FacebookIcon size={48} round />
+                </FacebookShareButton> */}
             </div>
+
             <footer>
               <div className="text-sm font-medium leading-5 divide-gray-200 xl:divide-y dark:divide-gray-700 xl:col-start-1 xl:row-start-2">
                 {tags && (
