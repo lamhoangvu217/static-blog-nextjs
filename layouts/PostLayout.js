@@ -103,7 +103,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   id={`${slug}`}
                   hideCounterIfLessThan={1}
                   namespace="post"
-                  component={ClapButton.templates.Medium}
                 ></ClapButton>
               </div>
 
