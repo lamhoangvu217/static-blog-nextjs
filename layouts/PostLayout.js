@@ -99,11 +99,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   alignItems: 'center',
                 }}
               >
-                <ClapButton
-                  id={`${slug}`}
-                  hideCounterIfLessThan={1}
-                  namespace="post"
-                ></ClapButton>
+                <ClapButton id={`${slug}`} hideCounterIfLessThan={1} namespace="post"></ClapButton>
               </div>
 
               {/* <FacebookShareButton

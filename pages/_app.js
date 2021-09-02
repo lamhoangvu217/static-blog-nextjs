@@ -10,13 +10,13 @@ export default function App({ Component, pageProps }) {
   return (
     <Provider apiKey="pt_b9b896b9cd6b4b22a9f81ff11c330d">
       {/* <ThemeProvider attribute="class"> */}
-        <Head>
-          <meta content="width=device-width, initial-scale=1" name="viewport" />
-        </Head>
-        <Analytics />
-        <LayoutWrapper>
-          <Component {...pageProps} />
-        </LayoutWrapper>
+      <Head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+      </Head>
+      <Analytics />
+      <LayoutWrapper>
+        <Component {...pageProps} />
+      </LayoutWrapper>
       {/* </ThemeProvider> */}
     </Provider>
   )
