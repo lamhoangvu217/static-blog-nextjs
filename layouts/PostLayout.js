@@ -9,7 +9,6 @@ import Comments from '@/components/comments'
 import { FacebookShareButton, FacebookIcon } from 'next-share'
 import { ClapButton } from '@lyket/react'
 
-
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
