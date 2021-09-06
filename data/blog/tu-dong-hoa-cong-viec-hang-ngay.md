@@ -1,7 +1,7 @@
 ---
 title: Tự động hóa công việc hàng ngày và quản lý thời gian với Notion (Phần 1)
 date: '2021-08-25'
-tags: ['Phuong phap hoc tap']
+tags: ['tips']
 draft: false
 summary: Cách vô cùng đơn giản mà mình áp dụng cho việc học tập và làm việc hàng ngày
 images: []
