@@ -30,7 +30,7 @@ Trong quá trình đọc sẽ có lúc bạn sẽ thấy có những câu rất 
 Mình đã đọc cuốn Đừng chạy theo số đông của anh Kiên Trần đến nay là lần thứ 3. Mỗi lần đọc lại ở những thời điểm khác nhau trong cuộc đời mình lại ngẫm ra được điều gì đó. Và càng đọc mình càng nhớ và hiểu nội dung của cuốn sách. Nếu bây giờ bạn đọc dòng nào đó thấy nó không có nghĩa lý gì (giả sử bạn đang là sinh viên và tác giả thì đang kể về chuyện đi làm của họ) thì không có nghĩa là 3 năm sau bạn đọc vẫn thấy nó vô nghĩa. \
 Hãy đọc đi đọc lại nhiều lần để cảm nhận được hết chiều sâu của cuốn sách.
 
-## 5. Hãy đọc sách vì bạn thích đọc, đừng đọc để trở nên tri thức hơn
+## 5. Mình đọc sách vì mình thích đọc, mình không đọc để trở nên tri thức hơn
 
 Cảm xúc của mình ở tất cả các lần mua sách đều giống nhau, đó là mình nghĩ mình mua sách về bởi mình thích đọc sách, mình thích dành hàng giờ liền ngồi đọc ngấu nghiến một cuốn sách mà mình yêu thích, quên cả thời gian. Mình không quan tâm nó giúp mình thông minh lên được bao nhiêu %, đơn giản mình thấy nó hay là mình đọc. Đây cũng chính là lý do mà mình duy trì được thói quen đọc sách đến nay đã được 3 năm. \
 Mình không đọc nhiều sách, tủ sách của mình có chưa đến 10 cuốn, nhưng mình có thể tự tin nói với bạn rằng mình nhớ gần như mọi nội dung từ những cuốn sách mà mình đã đọc, lý do là gì thì mình đã nói ở bên trên.
