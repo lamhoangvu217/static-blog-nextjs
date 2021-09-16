@@ -1,5 +1,5 @@
 ---
-title: Tự động hóa công việc hàng ngày và quản lý thời gian với Notion (Phần 1)
+title: Tự động hóa công việc hàng ngày và cách mình sử dụng Notion (Phần 1)
 date: '2021-08-25'
 tags: ['tips']
 draft: false
