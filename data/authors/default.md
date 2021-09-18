@@ -8,8 +8,6 @@ linkedin: https://www.linkedin.com/in/lam-vu-hoang-958202216/
 github: https://github.com/lamhoangvu217
 ---
 
-Chào các bạn, mình là Lâm. Mang trong mình niềm đam mê mãnh liệt về lập trình và công nghệ từ nhỏ (đoạn này văn tí) 🙂 nghe sự chỉ bảo của anh sếp (nơi mình làm thêm hồi lớp 10 về kinh doanh smartphone) là "Mày học IT đi em sau này nhàn với nhiều tiền lắm" nên mình quyết định dấn thân vào ngành này không chút do dự.
+Đây là nơi mình chia sẻ những kiến thức, kỹ năng và những câu chuyện tản mạn về cuộc sống của mình.
 
-Giờ học đến năm thứ 4 rồi mà chỉ thấy đau lưng với mỏi mắt chứ chưa thấy giàu ở đâu 😢 Nói vậy thôi chứ mình vẫn yêu công việc của mình lắm :v
-
-Hiện tại mình đang theo đuổi mảng Mobile Dev (cụ thể là React Native) và tương lai chắc vẫn vậy (mình sẽ chia sẻ cách mình tìm ra đam mê là mobile ở 1 bài blog các bạn nhớ theo dõi nhé 🙃).
+Các bạn có thể yêu cầu chủ đề blog mà muốn mình viết tại [đây](https://tally.so/r/3xQO9w)
