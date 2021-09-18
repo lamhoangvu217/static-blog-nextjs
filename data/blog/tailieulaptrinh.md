@@ -1,7 +1,7 @@
 ---
 title: Tài liệu lập trình mà mình học (updated 09/2021)
 date: '2021-09-16'
-tags: [tips]
+tags: [document]
 draft: false
 summary: Tài liệu lập trình mà mình học được update hàng ngày
 images: []

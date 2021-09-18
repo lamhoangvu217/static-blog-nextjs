@@ -14,7 +14,7 @@ Câu trả lời là, mình bị nhầm lẫn giữa 2 khái niệm: Mục tiêu
 
 # Mong muốn
 
-Cách đây 2 năm mình mong muốn sẽ trở thành fullstack developer trong vòng 3 năm tới, mong muốn đấy xuất hiện trong đầu mình vào thứ 2, mình ngồi ngay vào bàn học, mở máy tính lên, tìm hiểu mọi tài liệu nói về cách trở thành Fullstack Developer, mình thấy ôi sao phải học lắm thế, thế này thì khó quá thôi từ từ đã để mai rồi tính tiếp. \
+Cách đây 2 năm mình mong muốn sẽ trở thành Fullstack Developer trong vòng 3 năm tới, mong muốn đấy xuất hiện trong đầu mình vào thứ 2, mình ngồi ngay vào bàn học, mở máy tính lên, tìm hiểu mọi tài liệu nói về cách trở thành Fullstack Developer, mình thấy ôi sao phải học lắm thế, thế này thì khó quá thôi từ từ đã để mai rồi tính tiếp. \
 Rồi đến ngày hôm sau, đầu lại như mới, tiếp tục đắm chìm vào "thức ăn nhanh", cái mục tiêu to lớn ấy đi vào dĩ vãng. 6 tháng sau tình cờ xem được một bạn kém mình 2 tuổi đã lập trình ra website bán hàng sử dụng NodeJS với ReactJS. Ôi sao mà ghen tị quá, phải học ngay thôi. Tiếp tục ngồi vào bàn và cái vòng tuần hoàn đấy lại tiếp tục.
 
 Từ câu chuyện thực tế của mình ngày trước bạn có thể thấy mong muốn đơn giản chỉ là suy nghĩ thoáng qua trong đầu bạn, nó không rõ ràng, không chi tiết, không khiến bạn phải hành động. \
@@ -26,8 +26,8 @@ Mục tiêu phải là thứ rõ ràng, chi tiết, nó đong đếm được, v
 
 > Mỗi ngày tôi sẽ chống đẩy 50 cái và gập bụng 5 hiệp mỗi hiệp 20 cái, nếu có điều kiện tôi sẽ ra phòng gym.
 
-Như bạn vừa thấy, vế đầu tiên chỉ là mong muốn của bạn, vế thứ hai mới chính là mục tiêu. \
-Vế thứ hai cho bạn biết ngay ngày mai bạn cần phải làm gì, cho thấy mức giá mà bạn phải trả để có được 6 múi. Tức vế thứ nhất chỉ cho bạn thấy đỉnh núi, còn vế thứ hai cho bạn biết đường leo lên đỉnh núi còn bao xa, có những vật cản gì không, bạn cần phải mua dụng cụ gì và phải chấp nhận những rủi ro gì khi leo lên núi. \
+Như bạn vừa thấy, cách viết đầu tiên chỉ là mong muốn của bạn, cách viết thứ hai mới chính là mục tiêu. \
+Cách viết thứ hai cho bạn biết ngay ngày mai bạn cần phải làm gì, cho thấy mức giá mà bạn phải trả để có được 6 múi. Tức cách viết thứ nhất chỉ cho bạn thấy đỉnh núi, còn cách viết thứ hai cho bạn biết đường leo lên đỉnh núi còn bao xa, có những vật cản gì không, bạn cần phải mua dụng cụ gì và phải chấp nhận những rủi ro gì khi leo lên núi. \
 Nếu bạn mới từ Sài Gòn lên Hà Nội sinh sống, bạn sẽ không thể tự đi từ Hoàng Mai đến Cầu Giấy một mình nếu như không biết đường, để đi bạn cần có Google Maps. Khi có Google Maps bạn cảm thấy việc di chuyển từ Hoàng Mai đến Cầu Giấy dễ dàng hơn rất nhiều. \
 Hãy tưởng tượng bạn đang ở Hoàng Mai còn mục tiêu của bạn ở Cầu Giấy, giờ bạn làm thế nào để đi? Làm thế nào để tự vẽ ra bản đồ của riêng bạn?
 ![goals.jpg](https://i.postimg.cc/gJndRrLh/goals.jpg)
