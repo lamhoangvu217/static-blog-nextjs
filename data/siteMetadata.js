@@ -13,6 +13,7 @@ const siteMetadata = {
   github: 'https://github.com/lamhoangvu217',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://www.facebook.com/profile.php?id=100069291497259',
+  spotify: 'https://open.spotify.com/user/21acs5sngq2xkehugtvqkwmuy',
   youtube: 'https://www.youtube.com/channel/UCfeGc6jfLcgVdM-nkJlF5RA',
   linkedin: 'https://www.linkedin.com/in/lam-vu-hoang-958202216/',
   locale: 'en-US',
