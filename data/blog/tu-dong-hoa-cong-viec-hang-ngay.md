@@ -78,3 +78,5 @@ Bạn nào dùng Cốc cốc thì cũng làm tương tự với Chrome nhé.
 
 Cách này tuy đơn giản nhưng nó giúp mình tiết kiệm được rất nhiều thời gian cho công việc hàng ngày, hy vọng nó cũng sẽ giúp ích cho các bạn 😘. \
 Bài này chắc cũng dài rồi, mình xin phép nói về Notion ở phần 2 nhé.
+
+Nếu các bạn muốn xem ở dạng video thì có thể xem tại [đây](https://youtu.be/pppgfFyMdwE)
