@@ -8,6 +8,8 @@ images: []
 layout: PostLayout
 ---
 
+Hello các bạn
+
 Mình là người khá tham lam, nhiều khi mong muốn một ngày có nhiều hơn 24h 🙄 Và đương nhiên điều đó không
 thể trở thành sự thật được 🙁. Nên mình đã suy nghĩ về vấn đề này khá lâu và cuối cùng đã có câu trả lời.
 \

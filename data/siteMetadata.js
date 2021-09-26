@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Blog nho nhỏ của Lâm',
+  title: 'Góc nhỏ của Lâm',
   author: 'Lam Vu Hoang',
   headerTitle: 'Lam Vu Hoang',
   description: 'Các bài post mới nhất',
