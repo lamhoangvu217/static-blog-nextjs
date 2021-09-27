@@ -236,12 +236,12 @@ function CurrentPlaying() {
               <a
                 target="_blank"
                 href={currentTrack.item.external_urls.spotify}
-                className="text-xl font-semibold text-black"
+                className="text-xl font-semibold"
                 rel="noreferrer"
               >
                 {currentTrack.item.name}
               </a>
-              <div className="flex text-gray-500">
+              <div className="flex text-gray-200">
                 {currentTrack.item?.artists ? (
                   currentTrack.item.artists.map((e, i) => (
                     <a target="_blank" href={e.external_urls.spotify} key={i} rel="noreferrer">

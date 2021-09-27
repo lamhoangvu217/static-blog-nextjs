@@ -30,6 +30,7 @@ module.exports = {
           blue: '#93ddfd',
           white: '#fff',
         },
+        spotify: '#1db954',
       },
       typography: (theme) => ({
         DEFAULT: {
