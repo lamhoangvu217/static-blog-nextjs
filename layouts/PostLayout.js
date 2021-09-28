@@ -89,7 +89,12 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2"
               style={{ marginBottom: '20px' }}
             >
-              <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">{children}</div>
+              <div
+                className="pt-10 pb-8 prose dark:prose-dark max-w-none"
+                style={{ userSelect: 'none' }}
+              >
+                {children}
+              </div>
               <div
                 style={{
                   borderTopWidth: '0px',
