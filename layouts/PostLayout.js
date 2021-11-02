@@ -7,8 +7,6 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import Comments from '@/components/comments'
 import { FacebookShareButton, FacebookIcon } from 'next-share'
-import { ClapButton } from '@lyket/react'
-
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
@@ -104,16 +102,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   alignItems: 'center',
                 }}
               >
-                <ClapButton id={`${slug}`} namespace="post" />
+                {/* <ClapButton id={`${slug}`} namespace="post" /> */}
+               
               </div>
-
-              {/* <FacebookShareButton
-                  url={`https://www.lamhoangvu.me/blog/${slug}`}
-                  quote={'Share to facebook'}
-                  hashtag={'#nextshare'}
-                >
-                  <FacebookIcon size={48} round />
-                </FacebookShareButton> */}
             </div>
 
             <footer>
