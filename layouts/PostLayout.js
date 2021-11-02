@@ -103,7 +103,6 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 }}
               >
                 {/* <ClapButton id={`${slug}`} namespace="post" /> */}
-               
               </div>
             </div>
 
