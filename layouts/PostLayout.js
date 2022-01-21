@@ -5,6 +5,7 @@ import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import { ProgressBar } from 'scrolling-based-progressbar'
 import Comments from '@/components/comments'
 import { FacebookShareButton, FacebookIcon } from 'next-share'
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`
@@ -26,6 +27,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         {...frontMatter}
       />
       <article>
+        <ProgressBar height="5px" color="#6c5ce7" bgColor="transparent" />
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header className="pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
@@ -101,9 +103,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   display: 'flex',
                   alignItems: 'center',
                 }}
-              >
-                {/* <ClapButton id={`${slug}`} namespace="post" /> */}
-              </div>
+              ></div>
             </div>
 
             <footer>

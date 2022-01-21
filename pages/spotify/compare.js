@@ -72,7 +72,7 @@ export default function Compare({
   useEffect(() => {
     if (typeof window != undefined) {
       setredirect_url(
-        `https://accounts.spotify.com/authorize?client_id=bb56eb0ca0a94f00afe0b96a734630b0&redirect_uri=${window.location.href}&scope=user-read-private,user-read-recently-played,user-top-read&response_type=token`
+        `https://accounts.spotify.com/authorize?client_id=6dcc364307364e478f38ec24b819a3fa&redirect_uri=${window.location.href}&scope=user-read-private,user-read-recently-played,user-top-read&response_type=token`
       )
       setAccess_token(window.localStorage.getItem('access_token'))
     }
