@@ -94,7 +94,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #a55eea;
+  background: #555;
   border-radius: 10px;
 }
 
