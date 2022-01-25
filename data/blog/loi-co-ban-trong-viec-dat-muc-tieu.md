@@ -3,8 +3,8 @@ title: Tản mạn 2 - Lỗi cơ bản trong việc đặt mục tiêu
 date: '2021-09-17'
 tags: ['tan-man-series']
 draft: false
-summary: Bạn thường đặt nhiều mục tiêu và cuối cùng chẳng đạt được điều gì thì đây là lý do
-images: []
+summary: Bạn thường đặt nhiều mục tiêu cho ngắn hạn lẫn dài hạn và cuối cùng chẳng đạt được điều gì thì đây là lý do
+images: ['/static/images/muctieu.jpg']
 layout: PostLayout
 ---
 

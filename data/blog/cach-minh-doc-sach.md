@@ -3,8 +3,8 @@ title: Cách mình đọc sách
 date: '2021-09-06'
 tags: ['tips']
 draft: false
-summary: Mình đọc sách như thế nào?
-images: []
+summary: Mình không có thói quen đọc sách, khi nào rảnh mình mới đọc. Mình chỉ coi sách là thú vui lúc mình rảnh rỗi, vừa giải trí vừa có thêm kiến thức.
+images: ['/static/images/book.jpg']
 layout: PostLayout
 ---
 

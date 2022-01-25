@@ -4,7 +4,7 @@ date: '2021-08-30'
 tags: ['tan-man-series']
 draft: false
 summary: Đam mê của bạn không thể tìm ra qua việc xem tarot, hay qua các bài kiểm tra tính cách, sinh trắc vân tay, mà nó đơn giản là một hiện tượng tâm lý
-images: []
+images: ['/static/images/damme.jpg']
 layout: PostLayout
 ---
 

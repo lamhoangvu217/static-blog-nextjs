@@ -4,7 +4,7 @@ date: '2021-08-25'
 tags: ['tips']
 draft: false
 summary: Cách vô cùng đơn giản mà mình áp dụng cho việc học tập và làm việc hàng ngày
-images: []
+images: ['/static/images/notion.jpg']
 layout: PostLayout
 ---
 

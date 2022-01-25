@@ -4,7 +4,7 @@ date: '2022-01-24'
 tags: ['tan-man-series']
 draft: false
 summary: Đây là những kiến thức mà mình tự rút ra trong quá trình tự tìm hiểu và giao dịch Bitcoin. Nó có thể không đúng 100% và chỉ mang tính chất tham khảo
-images: []
+images: ['/static/images/crypto.jpg']
 layout: PostLayout
 ---
 
