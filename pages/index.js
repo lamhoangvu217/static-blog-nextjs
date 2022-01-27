@@ -27,11 +27,11 @@ export default function Home({ posts }) {
 
           <p className="text-lg leading-7 text-gray-600 dark:text-gray-400">
             Mình là <span className="font-medium">Lâm</span> -{' '}
-            <span className="font-medium">Frontend Developer</span> tại{' '}
+            <span className="font-medium">Software Engineer</span> tại{' '}
             <a
               href="https://kpim.vn/"
               target="_blank"
-              className="text-primary-400 hover:text-primary-600 dark:hover:text-primary-400"
+              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               rel="noreferrer"
             >
               KPIM
@@ -67,17 +67,17 @@ export default function Home({ posts }) {
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
                       <dl>
                         <dt className="sr-only">Published on</dt>
-                        <dd className="">
-                          {/* <time dateTime={date}>{formatDate(date)}</time> */}
-                          <img
+                        <dd className="text-base font-medium pb-7 pt-1 leading-6 text-gray-500 dark:text-gray-400">
+                          <time dateTime={date}>{formatDate(date)}</time>
+                          {/* <img
                             className="hidden md:w-full md:h-[165px] md:block   mt-1 rounded-xl"
                             src={images[0]}
                             alt=""
-                          />
+                          /> */}
                         </dd>
                       </dl>
-                      <div className="space-y-4 xl:pl-5 xl:col-span-3">
-                        <div className="space-y-3">
+                      <div className="space-y-2 xl:pl-5 xl:col-span-3">
+                        <div className="space-y-2">
                           <div>
                             <h2 className="text-2xl font-bold leading-8 tracking-tight">
                               <Link
@@ -87,9 +87,9 @@ export default function Home({ posts }) {
                                 {title}
                               </Link>
                             </h2>
-                            <div className="text-base font-medium pb-7 pt-1 leading-6 text-gray-500 dark:text-gray-400">
+                            {/* <div className="text-base font-medium pb-7 pt-1 leading-6 text-gray-500 dark:text-gray-400">
                               <time dateTime={date}>{formatDate(date)}</time>
-                            </div>
+                            </div> */}
 
                             <div className="flex flex-wrap">
                               {tags.map((tag) => (
@@ -101,15 +101,15 @@ export default function Home({ posts }) {
                             {summary}
                           </div>
                         </div>
-                        {/* <div className="text-base font-medium leading-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div> */}
+                        <div className="text-base font-medium leading-6">
+                          <Link
+                            href={`/blog/${slug}`}
+                            className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            aria-label={`Read "${title}"`}
+                          >
+                            Read more &rarr;
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </article>
