@@ -61,7 +61,7 @@ export default function Home({ posts }) {
               <Link href={`/blog/${slug}`} key={slug} className="">
                 <li
                   key={slug}
-                  className="py-12 px-4 hover:bg-gray-100 dark:hover:bg-[#2f3640] hover:rounded-xl"
+                  className="py-12 px-4 hover:bg-gray-100 dark:hover:bg-[#384455] hover:rounded-xl"
                 >
                   <article>
                     <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
