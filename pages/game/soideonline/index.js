@@ -1,4 +1,6 @@
 import React, { Fragment, useState } from 'react'
+import { PageSEO } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
 const SoiDeOnline = () => {
   const [inputDream, setInputDream] = useState('')
   const [buttonDreamStatus, setButtonDream] = useState(true)
@@ -8,9 +10,14 @@ const SoiDeOnline = () => {
   const [seconds, setSeconds] = useState(3)
   const [ketqua, setketqua] = useState(false)
   const countdown = () => {
-    window.timer = setInterval(function () {
-      setSeconds((seconds) => seconds - 1)
-    }, 1000)
+    if (inputDream == '') {
+      alert('Bạn cần nhập nội dung giấc mơ')
+      return
+    } else {
+      window.timer = setInterval(function () {
+        setSeconds((seconds) => seconds - 1)
+      }, 1000)
+    }
   }
   function getRandomNumberBetween(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
@@ -21,13 +28,13 @@ const SoiDeOnline = () => {
         <div className="flex flex-col justify-center items-center">
           <form>
             <textarea
-              className="w-[500px] border-2 rounded-md dark:text-white dark:bg-[#22272E] focus:border-[#8e44ad] h-24 mt-4"
+              className="xl:w-[500px] w-64 border-2 rounded-md dark:text-white dark:bg-[#22272E] focus:border-[#8e44ad] h-24 mt-4"
               placeholder={'Nhập giấc mơ của bạn tại đây'}
               onChange={(e) => setInputDream(e.target.value)}
             />
           </form>
           <button
-            className="bg-[#2ecc71] text-white px-5 py-2 mt-4"
+            className="bg-[#2ecc71] text-white px-12 py-4 rounded-lg text-lg mt-4"
             type="button"
             onClick={() => {
               setDreamStatus(!dreamStatus)
@@ -109,27 +116,30 @@ const SoiDeOnline = () => {
     }
   }
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex flex-col justify-center items-center dark:bg-[#2f3640] bg-gray-200 px-10 py-5 rounded-xl ">
-        <h1 className="block text-3xl text-center font-bold ">Soi đề Online</h1>
-        <span className="text-gray-500 dark:text-gray-400 block mt-2 mx-auto text-center">
-          Đêm qua bạn mơ đến người cũ và không biết nên đánh con gì để ăn to. Hãy nhập giấc mơ xuống
-          bên dưới
-        </span>
-      </div>
-
-      {buttonDream()}
-      <div className="container">
-        <div className="row">
-          <div className="col">{showInputDream()}</div>
+    <>
+      <PageSEO title={`Soi đề Online - GamingLand`} description={siteMetadata.description} />
+      <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center dark:bg-[#2f3640] bg-gray-200 px-10 py-5 rounded-xl ">
+          <h1 className="block text-3xl text-center font-bold ">Soi đề Online</h1>
+          <span className="text-gray-500 dark:text-gray-400 block mt-2 mx-auto text-center">
+            Đêm qua bạn mơ đến người cũ và không biết nên đánh con gì để ăn to. Hãy nhập giấc mơ
+            xuống bên dưới
+          </span>
         </div>
-      </div>
 
-      {showDreamStatus()}
-      {/* SOI DE */}
-      {WaitDream()}
-      {result()}
-    </div>
+        {buttonDream()}
+        <div className="container">
+          <div className="row">
+            <div className="col">{showInputDream()}</div>
+          </div>
+        </div>
+
+        {showDreamStatus()}
+        {/* SOI DE */}
+        {WaitDream()}
+        {result()}
+      </div>
+    </>
   )
 }
 

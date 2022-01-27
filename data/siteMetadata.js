@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Dev Vux Land',
   author: 'Lam Vu Hoang',
   headerTitle: 'Lam Vu Hoang',
-  description: 'Các bài post mới nhất',
+  description: 'Blog của Lâm',
   language: 'en-us',
   siteUrl: 'https://www.lamhoangvu.me/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
