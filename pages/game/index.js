@@ -20,8 +20,8 @@ function GamePage() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="flex flex-wrap -m-4">
-            {gameData.map((d) => (
+          <div className="flex flex-wrap justify-center -m-4">
+            {/* {gameData.map((d) => (
               <GameCard
                 key={d.title}
                 title={d.title}
@@ -29,7 +29,8 @@ function GamePage() {
                 href={d.href}
                 imgSrc={d.imgSrc}
               />
-            ))}
+            ))} */}
+            <span className="font-semibold text-2xl">Comming Soon in 2022...</span>
           </div>
         </div>
       </div>
