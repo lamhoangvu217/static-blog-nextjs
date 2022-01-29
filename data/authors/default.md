@@ -1,7 +1,7 @@
 ---
 name: Lam Vu Hoang
 avatar: /static/images/avatar.png
-occupation: Student at UTC
+occupation: Software Engineer at KPIM
 # company: Đại học Giao thông vận tải
 email: vuhoanglam21720@gmail.com
 linkedin: https://www.linkedin.com/in/lam-vu-hoang-958202216/

@@ -41,6 +41,7 @@ class MyDocument extends Document {
         <body className="antialiased text-black bg-white dark:bg-dark dark:text-white">
           <Main />
           <NextScript />
+
           <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
         </body>
       </Html>
