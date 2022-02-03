@@ -10,9 +10,8 @@ github: https://github.com/lamhoangvu217
 
 ## Đôi nét về bản thân
 
-- Mình tên là **Vũ Hoàng Lâm**, 21 tuổi, đến từ **Bắc Ninh**, miền đất quan họ =)))
-- Sinh viên năm cuối khoa IT trường Đại học Giao Thông Vận Tải HN
-- Mình thích lập trình, đọc sách và được chia sẻ kiến thức
+- Mình tên là **Vũ Hoàng Lâm**, Software Engineer tại KPIM
+- Mình thích lập trình, tìm tòi kiến thức mới và được chia sẻ kiến thức đã học đến mọi người xung quanh
 
 ## Lý do mình tạo ra blog này
 
