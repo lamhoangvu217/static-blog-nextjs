@@ -1,5 +1,5 @@
 ---
-title: Tản mạn 3 - Những điều mình học được khi đầu tư vào Bitcoin
+title: 'Tản mạn #3 - Những điều mình học được khi đầu tư vào Bitcoin'
 date: '2022-01-24'
 tags: ['tan-man-series']
 draft: false

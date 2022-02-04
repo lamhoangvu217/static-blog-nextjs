@@ -1,5 +1,5 @@
 ---
-title: Tản mạn 2 - Lỗi cơ bản trong việc đặt mục tiêu
+title: 'Tản mạn #2 - Lỗi cơ bản trong việc đặt mục tiêu'
 date: '2021-09-17'
 tags: ['tan-man-series']
 draft: false

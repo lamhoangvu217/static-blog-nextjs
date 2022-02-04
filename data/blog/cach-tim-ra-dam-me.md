@@ -1,5 +1,5 @@
 ---
-title: Tản mạn 1 - Cách tìm ra đam mê
+title: 'Tản mạn #1 - Cách tìm ra đam mê'
 date: '2021-08-30'
 tags: ['tan-man-series']
 draft: false

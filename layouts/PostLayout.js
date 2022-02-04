@@ -91,7 +91,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
             >
               <div
                 className="pt-10 pb-8 prose dark:prose-dark max-w-none"
-                style={{ userSelect: 'none' }}
+                // style={{ userSelect: 'none' }}
               >
                 {children}
               </div>
