@@ -1,5 +1,5 @@
 ---
-title: 'TAN MAN #2 - MISTAKES PEOPLE USUALLY MAKE WHEN SETTING GOALS [English]'
+title: 'TAN MAN #2 - MISTAKES PEOPLE USUALLY MAKE WHEN SETTING GOALS'
 date: '2022-02-04'
 tags: ['tan-man-series', 'english']
 draft: false

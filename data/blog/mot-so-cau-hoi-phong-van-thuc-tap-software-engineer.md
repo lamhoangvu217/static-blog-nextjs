@@ -1,5 +1,5 @@
 ---
-title: Một số câu hỏi phỏng vấn thực tập IT
+title: Một số câu hỏi phỏng vấn thực tập Software Engineer từ kinh nghiệm cá nhân
 date: '2022-01-28'
 tags: ['IT', 'tips']
 draft: false

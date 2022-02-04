@@ -17,6 +17,6 @@ github: https://github.com/lamhoangvu217
 
 Mình muốn chia sẻ những kiến thức, kỹ năng và những câu chuyện tản mạn về cuộc sống của mình tới các bạn.
 
-Ngoài trang blog này ra mình còn viết bài trên Spiderum, các bạn qua [đây](https://spiderum.com/nguoi-dung/lamvuhoang) upvote cho mình nhé :v
+Ngoài trang blog này ra mình còn viết bài trên [Spiderum](https://spiderum.com/nguoi-dung/lamvuhoang), [Medium](https://lamvuhoang.medium.com/) và [Viblo](https://viblo.asia/u/lamhoangvu217), các bạn có thể ghé thăm để ủng hộ mình nhé.
 
 Các bạn có thể yêu cầu chủ đề blog mà muốn mình viết tại [đây](https://tally.so/r/3xQO9w)
