@@ -1,0 +1,153 @@
+---
+title: 'FRONTEND #1 - Tối ưu trải nghiệm người dùng trên browser của Mobile'
+date: '2022-02-23'
+tags: ['frontend']
+draft: false
+summary: Khi làm việc với Responsive Design ở Mobile, mình đã gặp rất nhiều vấn đề và đây là cách mình khắc phục chúng
+images: []
+layout: PostLayout
+---
+
+Trong quá trình làm việc với Responsive Design ở Mobile, mình đã gặp rất nhiều vấn đề trong việc tối ưu trải nghiệm cho người dùng đặc biệt là trên Mobile.
+Dưới đây là một số vấn đề mình tổng hợp được và cách mình đã giải quyết chúng, hy vọng sẽ giúp ích cho các bạn phần nào.
+
+# Khóa tương tác như copy text và lưu ảnh
+
+## Copy text
+
+Khi người dùng vào website của chúng ta, sẽ có những lúc bạn không muốn họ copy được text vì tính bản quyền.
+Ví dụ như trang 123doc, nếu họ cho phép chúng ta copy được thì họ chết đói rồi =))) Nên để ngăn không cho người
+dùng copy được chúng ta chỉ đơn giản làm như sau. \
+Thêm một thuộc tính css này vào thẻ html và body:
+
+```css
+html,
+body {
+  user-select: none;
+}
+```
+
+## Lưu ảnh
+
+Khi người dùng nhấn giữ một hình ảnh trên màn hình, ở browser của mobile sẽ hiển thị popup hỏi người dùng có muốn lưu ảnh đó về máy hay không.
+Việc này sẽ gây ra nhiều phiền toái cho trải nghiệm người dùng. Nhưng rất may là chúng ta có đến 2 giải pháp ở đây.
+\
+Cách thứ nhất là ta sẽ thêm 1 thuộc tính CSS sau vào thẻ img, chúng ta cũng có thể đặt tên class để chỉ những thẻ img nào có class là nosave mới không thể lưu được:
+
+```css
+img.nosave {
+  pointer-events: none;
+}
+```
+
+Nhưng cách đầu tiên sẽ phát sinh một vấn đề, đấy là sẽ làm các hình ảnh của chúng ta không thể bấm được.
+Giả sử ta có một button search sử dụng ảnh cái kính lúp, thì việc sử dụng cách đầu tiên này không khả thi lắm (vì không bấm được thì sao mà search được gì).
+\
+Nhưng bạn yên tâm chúng ta còn cách thứ 2 - sử dụng **background-image**.
+\
+Tức là thay vì chúng ta sử dụng thẻ img như trước, thì giờ chúng ta chỉ cần viết 1 div rồi đặt background-image cho div đó là hình ảnh ta muốn là xong
+
+```css
+.search_icon {
+  background-image: url('/images/search.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+```
+
+# Ngăn chặn việc Scroll to Refresh ở một số Browser
+
+Ở một số browser có chức năng vuốt xuống để refresh lại trang, trong một vài trường hợp chúng ta không muốn trường hợp
+này xảy ra thì phải giải quyết sao. Rất đơn giản chỉ cần thêm thuộc tính CSS này:
+
+```css
+html,
+body {
+  overscroll-behavior: contain;
+}
+```
+
+# Fix cứng màn hình không cho scroll
+
+Để hiểu fix cứng mình nói ở đây là gì các bạn có thể truy cập vào trang chủ của Kahoot bằng smartphone:
+https://kahoot.it/ \
+Giả sử dự án mà bạn đang làm yêu cầu phải fix cứng như này thì các bạn phải làm sao, cũng rất đơn giản thêm cho
+mình các thuộc tính CSS này:
+
+```css
+html,
+body {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+```
+
+# Width và Height tự điều chỉnh theo kích thước màn hình
+
+## Đặt vấn đề
+
+![UI cần viết](/static/images/vidu1.jpg)
+
+Giả sử bạn cần code UI trông như thế này.
+Nhìn qua bạn sẽ thấy chúng ta có Header và Sidebar đúng không. Chúng ta set cho Header height là 48px chẳng hạn.
+Giờ mình muốn height của cái Sidebar phải chạy từ sau cái Header đến hết chiều cao màn hình còn lại, và đặc biệt là khi thu nhỏ màn hình lại
+thì chiều cao của Sidebar từ đó phải thay đổi theo, tuyệt đối không được xuất hiện thanh scrollbar khi thay đổi kích thước.
+Vậy bây giờ ta cần làm gì?
+
+## Cách giải quyết
+
+Bạn cứ bình tĩnh, trước tiên ta cần tạo ra một react hook có tên là useWindowSize:
+
+```jsx
+// useWindowSize.js
+import React, { useState, useEffect } from 'react'
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0])
+  useEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight])
+    }
+    window.addEventListener('resize', updateSize)
+    updateSize()
+    return () => window.removeEventListener('resize', updateSize)
+  }, [])
+  return size
+}
+export default useWindowSize
+```
+
+Cái hook này sẽ giúp lấy ra width và height của màn hình hiện tại. Khi thay đổi kích thước màn hình thì width và height ở hook này cũng thay đổi theo.
+Hook sẽ trả về cho chúng ta 2 biến là width và height. Giờ chúng ta sẽ sử dụng 2 biến này để giải quyết vấn đề trên.
+
+```jsx
+// SideBar.js
+import React from 'react'
+import useWindowSize from './useWindowSize'
+function SideBar() {
+  const [width, height] = useWindowSize()
+  const boxHeight = height - 48
+  return (
+    <div className="w-64   bg-green-500" style={{ height: `${boxHeight}px` }}>
+      hello
+    </div>
+  )
+}
+
+export default SideBar
+```
+
+Vậy là xong. Mình đã set height cho Sidebar bằng height của màn hình trừ đi height của Header (48px). Vậy là từ
+giờ trở đi khi chiều cao màn hình thay đổi thì height của Sidebar luôn bằng height màn hình hiện tại trừ đi
+48px. Dễ không các bạn ^^
+
+## Và đây là kết quả
+
+![Screen](/static/images/screen.gif)
+
+# Lời kết
+
+Vừa rồi là một số mẹo cho Responsive Design mà mình đúc kết được trong quá trình làm việc, tuy không nhiều nhưng hy vọng
+chúng sẽ giúp ích cho các bạn phần nào ^^ \
+Cảm ơn các bạn rất nhiều.
