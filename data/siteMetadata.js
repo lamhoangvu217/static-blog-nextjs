@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'Dev Vux Land',
   author: 'Lam Vu Hoang',
-  headerTitle: 'Lam Vu Hoang',
+  headerTitle: 'LamVuHoang',
   description: 'Blog của Lâm',
   language: 'en-us',
   siteUrl: 'https://www.lamhoangvu.me/',
