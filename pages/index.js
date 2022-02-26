@@ -18,12 +18,12 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="pt-6 pb-8 space-y-2 md:space-y-5">
+        <div className="pt-12 pb-8 space-y-2 md:space-y-5">
           <div className="flex">
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h1 className="text-3xl  font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Xin chào
             </h1>
-            <img src="/images/bongo.gif" className="w-20 h-14 ml-3" alt="" />
+            {/* <img src="/images/gumball.gif" className="w-26 h-20 -mt-6" alt="" /> */}
           </div>
 
           <p className="text-lg leading-7 text-gray-600 dark:text-gray-400">
@@ -50,7 +50,7 @@ export default function Home({ posts }) {
             </p>
             <div className="flex">
               <p className="my-4">Hope u enjoy ur time here sir</p>
-              <img src="/images/bugcat.gif" className="ml-2 w-16 h-14" alt="" />
+              {/* <img src="/images/bugcat.gif" className="ml-2 w-16 h-14" alt="" /> */}
             </div>
           </p>
         </div>

@@ -6,6 +6,7 @@ import { BlogSEO } from '@/components/SEO'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import ScrollTop from '@/components/ScrollTop'
 import { ProgressBar } from 'scrolling-based-progressbar'
 import Comments from '@/components/comments'
 import { FacebookShareButton, FacebookIcon } from 'next-share'
@@ -27,8 +28,9 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
         authorDetails={authorDetails}
         {...frontMatter}
       />
+      <ScrollTop />
       <article>
-        <ProgressBar height="5px" color="#6c5ce7" bgColor="transparent" />
+        <ProgressBar height="4px" color="#f97516" bgColor="transparent" />
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header className="pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
