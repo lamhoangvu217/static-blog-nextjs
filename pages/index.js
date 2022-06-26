@@ -21,37 +21,23 @@ export default function Home({ posts }) {
         <div className="pt-12 pb-8 space-y-2 md:space-y-5">
           <div className="flex">
             <h1 className="text-3xl  font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-              Xin chào
+              Hi{' '}
+              <span role="img" aria-label="hi">
+                🖥
+              </span>
             </h1>
             {/* <img src="/images/gumball.gif" className="w-26 h-20 -mt-6" alt="" /> */}
           </div>
 
           <p className="text-lg leading-7 text-gray-600 dark:text-gray-400">
-            Mình là <span className="font-medium">Lâm</span> -{' '}
-            <span className="font-medium">Software Engineer</span> tại{' '}
-            <a
-              href="https://kpim.vn/"
-              target="_blank"
-              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-              rel="noreferrer"
-            >
-              KPIM
-            </a>
-            .
+            I'm <span className="font-medium">Lam Vu Hoang</span>,
+            {/* <span className="font-medium">Frontend Software Engineer</span>. */}
             <p className="my-4">
-              Mình được tiếp cận với công nghệ từ năm học lớp 7 và đã dành rất nhiều thời gian để
-              tìm tòi, khám phá những điều hay ho về nó. Nên đến năm lớp 9 mình đã có thể support
-              hàng xóm sửa điện thoại nói riêng và các đồ công nghệ nói chung
+              Innovative Software Engineer with 8 months of experience in Frontend Development.
+              Demonstrated talent for frontend web development to optimize online presence.
+              Experienced in JavaScript frameworks such as ReactJS, NextJS as well as scripting
+              languages JavaScript and TypeScript.
             </p>
-            <p className="my-4">
-              Mình làm quen và hứng thú với lập trình từ năm 2019, lúc mình mới biết đến Frontend.
-              Blog này là nơi note lại những kiến thức mà mình học được và những điều hay ho mình
-              trải nghiệm khi đi làm!
-            </p>
-            <div className="flex">
-              <p className="my-4">Hope u enjoy ur time here sir</p>
-              {/* <img src="/images/bugcat.gif" className="ml-2 w-16 h-14" alt="" /> */}
-            </div>
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">

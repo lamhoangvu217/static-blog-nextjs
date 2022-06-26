@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Link from './Link'
@@ -6,6 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 function useIsScrollTop() {
   const [isTop, setIsTop] = useState(true)
   useEffect(() => {
@@ -50,13 +52,14 @@ const LayoutWrapper = ({ children }) => {
                 <div className="flex items-center justify-between">
                   {/* <img src="/images/bongo.gif" className="w-16 mr-2" alt=""/> */}
 
-                  {typeof siteMetadata.headerTitle === 'string' ? (
+                  {/* {typeof siteMetadata.headerTitle === 'string' ? (
                     <div className="h-7 text-2xl dark:text-white text-black font-semibold sm:block">
                       {siteMetadata.headerTitle}
                     </div>
                   ) : (
                     siteMetadata.headerTitle
-                  )}
+                  )} */}
+                  <img src={siteMetadata.image} className="w-9 h-9 rounded-full" alt="hello" />
                 </div>
               </Link>
             </div>

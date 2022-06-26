@@ -7,7 +7,7 @@ const siteMetadata = {
   siteUrl: 'https://www.lamhoangvu.me/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'vuhoanglam21720@gmail.com',
   github: 'https://github.com/lamhoangvu217',

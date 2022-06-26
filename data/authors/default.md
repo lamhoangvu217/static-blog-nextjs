@@ -1,22 +1,18 @@
 ---
 name: Lam Vu Hoang
-avatar: /static/images/avatar.png
-occupation: Software Engineer at KPIM
+avatar: /static/images/avatar.jpg
+occupation: Front-end Software Engineer
 # company: Đại học Giao thông vận tải
 email: vuhoanglam21720@gmail.com
 linkedin: https://www.linkedin.com/in/lam-vu-hoang-958202216/
 github: https://github.com/lamhoangvu217
 ---
 
-## Đôi nét về bản thân
+## A little bit about myself
 
-- Mình tên là **Vũ Hoàng Lâm**, Software Engineer tại KPIM
-- Mình thích lập trình, tìm tòi kiến thức mới và được chia sẻ kiến thức đã học đến mọi người xung quanh
+I'm Frontend Engineer, with an endless passion for building User Interfaces. \
+I always want to put myself in new challenges and learn from them. \
+I have worked with ReactJS for 1 year and am proficient in the TailwindCSS framework. \
+If you need to find a quality Frontend Enginner, I think you should put me on your consideration list.
 
-## Lý do mình tạo ra blog này
-
-Mình muốn chia sẻ những kiến thức, kỹ năng và những câu chuyện tản mạn về cuộc sống của mình tới các bạn.
-
-Ngoài trang blog này ra mình còn viết bài trên [Spiderum](https://spiderum.com/nguoi-dung/lamvuhoang), [Medium](https://lamvuhoang.medium.com/) và [Viblo](https://viblo.asia/u/lamhoangvu217), các bạn có thể ghé thăm để ủng hộ mình nhé.
-
-Các bạn có thể yêu cầu chủ đề blog mà muốn mình viết tại [đây](https://tally.so/r/3xQO9w)
+**Contact me at [tally inbox](https://tally.so/r/3xQO9w)**
